@@ -76,7 +76,7 @@ class AdivinhacaoIndexView {
     }
   
     obterNumeroSecreto() {
-      this.numeroSecreto = Math.floor(Math.random() * 20) + 1;
+      this.numeroSecreto = Math.floor(Math.random() * 50) + 1;
     }
   }
   
